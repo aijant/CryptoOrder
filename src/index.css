@@ -1,0 +1,36 @@
+.orderbook {
+    font-family: monospace;
+}
+
+.grid {
+    display: flex;
+    gap: 12px;
+}
+
+.side {
+    width: 50%;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 4px;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.25;
+}
+
+.bar.bids {
+    background: green;
+    left: 0;
+}
+
+.bar.asks {
+    background: red;
+    right: 0;
+}
